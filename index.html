@@ -12,9 +12,35 @@
 
     <!-- First, create a form tag where our inputs will be nested -->
 
+<form action="http://example.com/process-user.php" method="GET">
+  
+   <label for="fullname">Enter Name</label>
+  <input type="text" id="fullname" placeholder="Enter Name" required>
+  
+ <label for="email">Enter Email</label>
+  <input type="email" id="email" placeholder="Enter Email" required>
+  
+    <label for="phone">Enter Telephone</label>
+  <input type="tel" id="phone" placeholder="Enter Telephone (optional)" >
+  
+  <label for="message">Enter Message</label>
+  <textarea type="message" id="message" placeholder="Enter Message"></textarea>
+  
+<h5>Do you want to recieve emails?</h5>
+<label for="Yes">Yes</label>
+<input type="checkbox" id="checkbox">
 
+<label for="No">No</label>
+<input type="checkbox" id="checkbox">
+
+
+  <input type="submit" value="submit">
+</form>
       <!-- Add a label for 'fullname'-->
-
+        
+ </body>
+</html>
+    
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
       <!-- Include the place holder text "Enter Name" and make this input required -->
 
@@ -35,6 +61,8 @@
 
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
+   
+
 
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
@@ -43,6 +71,5 @@
 
       <!-- Add an input with the type set to 'submit' -->
 
-    
-  </body>
-</html>
+   
+ 
